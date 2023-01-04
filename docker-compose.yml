@@ -14,7 +14,7 @@ services:
     image: mariadb:latest
     container_name: productdb
     volumes:
-      - /home/docker/volumes/myapp/mysql/:/var/lib/mysql/
+      - /home/docker/volumes/myapp/H2/:/var/lib/H2/
     environment:
       - H2_USER=h2db
       - H2_PASSWORD=1234
